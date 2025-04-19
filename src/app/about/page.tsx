@@ -9,7 +9,7 @@ export default function AboutPage() {
           We provide practical guides, cultural insights, and community support.
         </p>
         <p>
-          Whether you're new to Korea or have been here for years, we’re here to help your journey and Korea coincide.
+          Whether you're new to Korea or have been here for years, we're here to help your journey and Korea coincide.
         </p>
       </div>
     )

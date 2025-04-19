@@ -15,7 +15,7 @@ const handler = NextAuth({
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        const { email, password } = credentials as any
+        const { email, password } = credentials as { email: string; password: string }
 
         // TODO: DB에서 유저 인증 구현 (지금은 테스트용)
         if (email === "test@koinside.org" && password === "1234") {
