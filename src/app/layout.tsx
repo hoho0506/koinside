@@ -19,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/about" className="hover:underline">About</Link>
             <Link href="/info" className="hover:underline">Info</Link>
             <Link href="https://community.koinside.org" className="hover:underline">Community</Link>
+            <Link href="/login" className="hover:underline">Login</Link>
           </nav>
         </header>
         <main className="p-6">{children}</main>
