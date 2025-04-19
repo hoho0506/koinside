@@ -6,10 +6,10 @@ export default function AboutPage() {
           Koinside is a platform designed to help foreigners live more easily and happily in Korea.
         </p>
         <p className="mb-2">
-          We provide practical guides, cultural insights, and community support.
+          We provide practical guides&lsquo; cultural insights&lsquo; and community support.
         </p>
         <p>
-          Whether you're new to Korea or have been here for years, we're here to help your journey and Korea coincide.
+          Whether you&apos;re new to Korea or have been here for years&lsquo; we&apos;re here to help your journey and Korea coincide.
         </p>
       </div>
     )
